@@ -15,6 +15,7 @@ public class BattleEntity : MonoBehaviour {
     public float attack2Damage;
 
     public void Start() {
-        throw new NotImplementedException();
+        // This component is a placeholder for visual representation
+        // The actual battle logic is handled by BattleManager and the Entity/Hero/Enemy classes
     }
 }

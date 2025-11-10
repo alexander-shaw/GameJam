@@ -209,132 +209,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &110537372
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 110537373}
-  - component: {fileID: 110537374}
-  m_Layer: 0
-  m_Name: BattleManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &110537373
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110537372}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &110537374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110537372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a3c94fd90beee4f9f07de61e2983ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleManager
-  battleLogText: {fileID: 0}
-  heroStatusText: {fileID: 0}
-  enemyStatusText: {fileID: 0}
-  countdownText: {fileID: 0}
-  currentHeroText: {fileID: 0}
-  actionSelectionPanel: {fileID: 0}
-  attackButton: {fileID: 0}
-  ability1Button: {fileID: 0}
-  ability2Button: {fileID: 0}
-  checkButton: {fileID: 0}
-  potionButton: {fileID: 0}
-  confirmButton: {fileID: 0}
-  targetDropdown: {fileID: 0}
-  heroSelectionButtons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  heroGameObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  enemyGameObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!1 &110537375
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 110537376}
-  - component: {fileID: 110537377}
-  m_Layer: 0
-  m_Name: BattleSetup
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &110537376
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110537375}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &110537377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110537375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5402024ba4f84da468ce113553685ed6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleSetup
-  heroObjects:
-  - {fileID: 985081293}
-  - {fileID: 438374268}
-  - {fileID: 1325884471}
-  enemyObjects:
-  - {fileID: 301313303}
-  - {fileID: 1858723834}
-  - {fileID: 670978474}
-  allEnemySprites:
-  - {fileID: 8100842263307516863, guid: a96622a664aeb2a4cae21e926f6266e1, type: 3}
-  - {fileID: -6093800345419743223, guid: 96c5111b81dfcd64095b10d06f35f23e, type: 3}
-  - {fileID: 2096414493718793823, guid: 7fb67a46507a0604f81044389bf072d7, type: 3}
-  - {fileID: -8953320483349278164, guid: 9c76397ea7108e341963db89f42ed256, type: 3}
 --- !u!1 &301313303
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,8 +219,6 @@ GameObject:
   m_Component:
   - component: {fileID: 301313305}
   - component: {fileID: 301313304}
-  - component: {fileID: 301313306}
-  - component: {fileID: 301313307}
   m_Layer: 0
   m_Name: Antag_1
   m_TagString: Untagged
@@ -427,39 +299,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &301313306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301313303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82c7fd4f0644e9ea334a1c7b7bf2dac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleEntity
-  health: 100
-  energy: 50
-  attackPower: 20
-  defense: 10
-  attack1Name: 
-  attack1Damage: 0
-  attack2Name: 
-  attack2Damage: 0
---- !u!114 &301313307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301313303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5b07489d83339b448b366bfc806bb20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleEnemyInitializer
-  enemyType: Unknown
 --- !u!1 &438374268
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,8 +491,6 @@ GameObject:
   m_Component:
   - component: {fileID: 670978476}
   - component: {fileID: 670978475}
-  - component: {fileID: 670978477}
-  - component: {fileID: 670978478}
   m_Layer: 0
   m_Name: Antag_3
   m_TagString: Untagged
@@ -734,39 +571,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &670978477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670978474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82c7fd4f0644e9ea334a1c7b7bf2dac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleEntity
-  health: 100
-  energy: 50
-  attackPower: 20
-  defense: 10
-  attack1Name: 
-  attack1Damage: 0
-  attack2Name: 
-  attack2Damage: 0
---- !u!114 &670978478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670978474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5b07489d83339b448b366bfc806bb20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleEnemyInitializer
-  enemyType: Unknown
 --- !u!1 &985081293
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,8 +582,6 @@ GameObject:
   - component: {fileID: 985081295}
   - component: {fileID: 985081294}
   - component: {fileID: 985081296}
-  - component: {fileID: 985081297}
-  - component: {fileID: 985081298}
   m_Layer: 0
   m_Name: Protag_1
   m_TagString: Untagged
@@ -880,35 +682,6 @@ MonoBehaviour:
   attack1Damage: 0
   attack2Name: 
   attack2Damage: 0
---- !u!114 &985081297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985081293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9eaa96a52116a145b209d047fd8da6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DamageFlashEffect
-  flashDuration: 0.2
-  flashColor: {r: 1, g: 0, b: 0, a: 1}
-  flashCount: 2
---- !u!114 &985081298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985081293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 389c803a78caf1a4892940c400a9fbe5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleEntityLinker
-  isHero: 1
-  entityIndex: 0
 --- !u!1 &1325884471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,7 +804,6 @@ GameObject:
   - component: {fileID: 1858723836}
   - component: {fileID: 1858723835}
   - component: {fileID: 1858723837}
-  - component: {fileID: 1858723838}
   m_Layer: 0
   m_Name: Antag_2
   m_TagString: Untagged
@@ -1132,19 +904,6 @@ MonoBehaviour:
   attack1Damage: 0
   attack2Name: 
   attack2Damage: 0
---- !u!114 &1858723838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1858723834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5b07489d83339b448b366bfc806bb20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleEnemyInitializer
-  enemyType: Unknown
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1157,5 +916,3 @@ SceneRoots:
   - {fileID: 301313305}
   - {fileID: 1858723836}
   - {fileID: 670978476}
-  - {fileID: 110537373}
-  - {fileID: 110537376}

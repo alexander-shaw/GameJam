@@ -481,8 +481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c79722313f018d2419ba002c6486f56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
-  fader: {fileID: 0}
-  sceneName: WorldScene
+  fader: {fileID: 1627452805}
+  sceneName: SampleScene
 --- !u!1 &476779496
 GameObject:
   m_ObjectHideFlags: 0
